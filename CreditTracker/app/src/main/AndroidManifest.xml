@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.credittrackr.application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.credittrackr.application.app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/activity_title_about_us" />
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/activity_title_privacy_policy" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.ForgotActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activity.AddCardActivity"
+            android:label="Add Your Card"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activity.AddExpenseActivity"
+            android:label="Add Your Expenses"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activity.ShowGraphActivity"
+            android:label="View Your Expenses"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activity.AddPDFActivity"
+            android:label="Add Your PDF Statement"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+        <!-- <activity
+            android:name=".activity.ExpensesActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity> -->
+
+        <activity
+        android:name=".activity.ExpensesActivity"
+        android:label="Your Expenses"
+        android:screenOrientation="portrait"
+        android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activity.CardActivity"
+            android:label="Your Card"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activity.PaymentActivity"
+            android:label="Pay Your Card"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activity.PDFStatementActivity"
+            android:label="View PDF Statement"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".activity.PDFCardActivity"
+            android:label="View PDF Card"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+
+
+    </application>
+
+</manifest>

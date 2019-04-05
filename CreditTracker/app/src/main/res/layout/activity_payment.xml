@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/bg_register"
+android:padding="10dp"
+tools:context="com.credittrackr.application.activity.AddCardActivity">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Text Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Card:"
+            android:layout_marginBottom="5dp"
+            />
+
+        <!-- Spinner Element -->
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/descriptionET"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/input_register_bg"
+        android:hint="Description"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint" />
+
+    <EditText
+        android:id="@+id/expenseET"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/input_register_bg"
+        android:hint="Amount"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="numberDecimal"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint" />
+
+    <!-- Login Button -->
+
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="#ea4c88"
+        android:text="PAY"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+
+</RelativeLayout>

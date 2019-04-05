@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">CT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Profile</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="action_settings">Logout</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_user">User Details</string>
+    <string name="nav_item_addcard">Add Card</string>
+    <string name="nav_item_addmanual">Add Expenses Manual</string>
+    <string name="nav_item_addpdf">Add Expenses by PDF</string>
+    <string name="nav_item_graph">Graph</string>
+    <string name="nav_item_mail">Mail</string>
+    <string name="nav_item_result">Result</string>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+    <!-- Login and Registration  -->
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="hint_dateofbirth">Date of Birth</string>
+    <string name="hint_mobileno">Mobile no</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <string name="cardNumber">Card Number</string>
+    <string name="cardType">Card Type</string>
+    <string name="expirationDate">Payment Date</string>
+    <string name="bank">Bank</string>
+    <string name="interestRate">Interest Rate</string>
+    <string name="startDate">Start Date</string>
+    <string name="endDate">End Date</string>
+    <string name="maximumLimit">Max Limit</string>
+    <string name="add">Add</string>
+    <string name="submit">Submit</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="btn_link_to_forgot">Forgot Password? </string>
+
+    <string name="delete">DELETE</string>
+    <string name="my_cart">My Cart</string>
+    <string name="spinner_title">Select Category</string>
+</resources>
